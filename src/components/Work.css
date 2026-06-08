@@ -1,0 +1,66 @@
+.work-section {
+  padding: 60px 0 0 0;
+}
+
+.work-header {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.work-subtitle {
+  color: var(--primary);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.work-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.work-bg-block {
+  background-color: var(--primary);
+  padding: 80px 0;
+}
+
+.work-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+.project-item {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+}
+
+.project-image {
+  width: 100%;
+  margin-bottom: 25px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.project-title {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .project-title {
+    font-size: 18px;
+  }
+}
